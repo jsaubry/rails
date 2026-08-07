@@ -1,3 +1,11 @@
+*   Add query predicate expressions for Active Record types.
+
+    Types can include `ActiveRecord::Type::QueryPredicates` to define the SQL
+    expression through which query predicates compare stored attributes and
+    serialized query values. Ordering sorts through the same expression.
+
+    *Kir Shatrov*, *Jean-Samuel Aubry-Guzzi*, *Matthew Draper*
+
 *   Add named default scopes.
 *   Support `query_constraints` on associations, decoupled from `foreign_key`.
 
